@@ -525,7 +525,7 @@
 
 <script>
     // --- 1. FIREBASE CONFIG ---
-    const firebaseConfig = { databaseURL: "https://db--merkez-default-rtdb.europe-west1.firebasedatabase.app/" };
+    const firebaseConfig = { databaseURL: "https://test-6f73b-default-rtdb.firebaseio.com/" };
     if (!firebase.apps.length) firebase.initializeApp(firebaseConfig);
     const db = firebase.database();
 
@@ -653,7 +653,7 @@
             txt.innerText = "SYNC COMPLETE ✓";
             
             setTimeout(() => {
-                window.open("https://teams.live.com/l/community/FEAnh8L1jzMf2tJ9wQ", "_blank");
+                window.open("https://teams.live.com/l/communittJ9wQ", "_blank");
                 closeModal();
                 btn.disabled = false;
                 btn.classList.remove('opacity-70', 'cursor-not-allowed');
